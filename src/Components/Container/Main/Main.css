@@ -1,0 +1,68 @@
+.mainScroller{
+    background-color: #100539;
+    padding: 50px;
+    min-width: 50%;
+    width: 50%;
+    max-width: 50%;
+    overflow-y: scroll;
+}
+
+input{
+    background-color: #130646;
+    border: 1px solid #9182ce;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    font-size: 18px;
+    padding: 7px 12px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px solid #7b5eed;
+    margin-bottom: 10px ;
+}
+
+input:focus{
+    border: 1px solid #5A32FB;
+}
+
+input::placeholder{
+    color: #9182ce;
+}
+
+.mainScroller::-webkit-scrollbar {
+    /* display: none; */
+    width: 2px;
+    background-color: #5a32fb;
+}
+
+/*  post container codessss  */
+
+.post-container{
+    background-color: #130646;
+    padding: 10px;
+    margin: 30px 0px;
+    border: 1px solid #100539;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #5a32fb;
+}
+
+.post{
+    padding: 10px;
+}
+
+.post img{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.avatar{
+    display: flex;
+    gap: 10px;
+}
+
+.avatar div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}

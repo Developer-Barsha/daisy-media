@@ -1,0 +1,38 @@
+.your-profile{
+    padding: 50px;
+}
+
+.your-profile button{
+    width: 100%;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.profile{
+    position: relative;
+    top: -100px;
+    left: 100px;
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.profile div{
+    padding-bottom: 30px;
+}
+
+.profile img{
+    border-radius: 50%;
+}
+
+.profile-sidebar{
+    width: 30%;
+    padding: 0px 20px;
+}
+
+.profile-content{
+    width: 70%;
+    padding: 0px 20px;
+}
