@@ -1,7 +1,7 @@
 import React from 'react';
-import './RightSidebar.css'
+import './Friends.css'
 
-const RightSidebar = () => {
+const Friends = () => {
     const friends = [
         {
             id: 0,
@@ -48,25 +48,22 @@ const RightSidebar = () => {
     ];
 
     return (
-        <div className='RightSidebar'>
-            <div>
-                <input type="text" placeholder='Search........' name="" id="" />
-            </div>
+        <div className='friends-container'>
+            <h1>Your Friends</h1>
 
+            <div className="friends">
             {
-                friends.map(friend =>
-                    <div className='friend hover' style={{ display: 'flex', gap: '10px', alignItems: 'center', margin: '10px 0' }}>
-                        <img src={friend.avatar} width={50} height={50} style={{ borderRadius: "50%" }} alt="" />
-
-                        <div>
-                            <h3>{friend.name}</h3>
-                            <p>{friend.bio}</p>
-                        </div>
+                friends.map(friend=>(
+                    <div className='sector'>
+                        <img src={friend?.avatar} alt="" />
+                        <h2>{friend?.name}</h2>
+                        <button style={{width:'100%'}}>Remove Friend</button>
                     </div>
-                )
+                ))
             }
+            </div>
         </div>
     );
 };
 
-export default RightSidebar;
+export default Friends;

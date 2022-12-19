@@ -1,0 +1,9 @@
+.enter-container{
+    padding: 0 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-height: 100vh;
+}

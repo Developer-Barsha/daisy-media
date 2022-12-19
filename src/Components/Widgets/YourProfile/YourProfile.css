@@ -36,3 +36,18 @@ img{
     width: 70%;
     padding: 0px 20px;
 }
+
+.profile-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.profile-gallery img{
+    width: 150px;
+    height: 200px;
+}
+
+/* #save-btn, #edit-input{
+    display: none;
+} */

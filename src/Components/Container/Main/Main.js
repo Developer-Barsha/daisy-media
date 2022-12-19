@@ -52,8 +52,8 @@ const Main = () => {
                     <img src={post.postPicture} width={500} height={300} alt="" />
                 </div>
                 <div className="post-interactions" style={{ display: 'flex', justifyContent: 'space-between', padding: '0 50px' }}>
-                    <h3 style={{ display: 'flex', gap: '10px', alignItems: 'center' }}><i class="fa-solid fa-heart"></i> Loves</h3>
-                    <h3 style={{ display: 'flex', gap: '10px', alignItems: 'center' }}><i class="fa-solid fa-comment"></i> Comments</h3>
+                    <h3 style={{ display: 'flex', gap: '10px', alignItems: 'center' }}><i className="fa-solid fa-heart"></i> Loves</h3>
+                    <h3 style={{ display: 'flex', gap: '10px', alignItems: 'center' }}><i className="fa-solid fa-comment"></i> Comments</h3>
                 </div>
             </div>
             ))}
