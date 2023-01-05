@@ -49,18 +49,18 @@ const MakeFriends = () => {
 
     return (
         <div className='friends-container'>
-            <h1>Make Friends</h1>
+            <h2>Make Friends</h2>
 
             <div className="friends">
-            {
-                friends.map(friend=>(
-                    <div className='sector'>
-                        <img src={friend?.avatar} alt="" />
-                        <h2>{friend?.name}</h2>
-                        <button style={{width:'100%'}}>Add Friend</button>
-                    </div>
-                ))
-            }
+                {
+                    friends.map(friend => (
+                        <div className='sector'>
+                            <img src={friend?.avatar} alt="" />
+                            <h4>{friend?.name.length <= 20 ? friend?.name : friend?.name.slice(0, 20) + '...'}</h4>
+                            <button style={{ width: '100%' }}>Remove Friend</button>
+                        </div>
+                    ))
+                }
             </div>
         </div>
     );

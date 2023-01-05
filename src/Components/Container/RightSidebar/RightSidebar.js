@@ -59,7 +59,7 @@ const RightSidebar = () => {
                         <img src={friend.avatar} width={50} height={50} style={{ borderRadius: "50%" }} alt="" />
 
                         <div>
-                            <h3>{friend.name}</h3>
+                            <h4>{friend?.name.length <= 20 ? friend?.name : friend?.name.slice(0, 20) + '...'}</h4>
                             <p>{friend.bio}</p>
                         </div>
                     </div>

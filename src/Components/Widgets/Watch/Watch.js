@@ -4,7 +4,9 @@ import './Watch.css'
 const Watch = () => {
     return (
         <div className='watch-container'>
-            <h1>Watch</h1>
+            <h2>Watch</h2>
+            <div>
+            </div>
         </div>
     );
 };

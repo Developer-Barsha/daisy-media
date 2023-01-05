@@ -35,11 +35,16 @@ const Main = () => {
             postTitle: 'Had so much fun today >.<',
             postPicture: 'https://wallpaperaccess.com/full/4476559.jpg'
         },
-    ]
+    ];
+
+    const reacting =()=>{
+        console.log('reactingggg')
+    }
 
     return (
         <div className='mainScroller'>
-            {posts.map(post => (<div className='post-container'>
+            {posts.map(post => (
+            <div className='post-container'>
                 <div className="avatar">
                     <img src={post.avatar} width={50} height={50} style={{ borderRadius: "50%" }} alt="" />
                     <div>
@@ -48,11 +53,11 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="post">
-                    <h3>{post.postTitle}</h3>
+                    <h4>{post.postTitle}</h4>
                     <img src={post.postPicture} width={500} height={300} alt="" />
                 </div>
-                <div className="post-interactions" style={{ display: 'flex', justifyContent: 'space-between', padding: '0 50px' }}>
-                    <h3 style={{ display: 'flex', gap: '10px', alignItems: 'center' }}><i className="fa-solid fa-heart"></i> Loves</h3>
+                <div className="post-interactions" style={{ display: 'flex', justifyContent: 'space-between', padding: '5px 50px' }}>
+                    <h3 onClick={reacting()} style={{ display: 'flex', gap: '10px', alignItems: 'center' }}><i className="fa-solid fa-heart"></i> Loves</h3>
                     <h3 style={{ display: 'flex', gap: '10px', alignItems: 'center' }}><i className="fa-solid fa-comment"></i> Comments</h3>
                 </div>
             </div>

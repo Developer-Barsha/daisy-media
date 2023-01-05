@@ -1,8 +1,11 @@
-.watch-container {
-    padding: 140px 50px;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+.gallery-container {
+    padding: 100px 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
 
 .gallery img{

@@ -2,7 +2,7 @@
     min-width: 25%;
     width: 25%;
     max-width: 25%;
-    padding: 70px 30px;
+    padding: 40px 20px;
     background-color: #130646;
     overflow-y: scroll;
 }
@@ -14,10 +14,3 @@
 /* .friend p{
     color: rgb(194, 176, 255);
 } */
-
-.hover:hover{
-    background-color: #5A32FB;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.2s;
-}

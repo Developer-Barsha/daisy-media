@@ -49,14 +49,14 @@ const Friends = () => {
 
     return (
         <div className='friends-container'>
-            <h1>Your Friends</h1>
+            <h2>Your Friends</h2>
 
             <div className="friends">
             {
                 friends.map(friend=>(
                     <div className='sector'>
                         <img src={friend?.avatar} alt="" />
-                        <h2>{friend?.name}</h2>
+                        <h4>{friend?.name.length <=20 ? friend?.name : friend?.name.slice(0,20)+'...'}</h4>
                         <button style={{width:'100%'}}>Remove Friend</button>
                     </div>
                 ))

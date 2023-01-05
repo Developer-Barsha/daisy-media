@@ -9,10 +9,9 @@ const Register = () => {
             <div>
                 <form>
                     <h2>Register</h2>
-                    <input type="text" />
-                    <input type="text" />
-                    <input type="text" />
-                    <input type="text" />
+                    <input type="text" placeholder='Your Name' />
+                    <input type="text" placeholder='Your Email' />
+                    <input type="image" src="" alt="" />
                 </form>
             </div>
         </div>

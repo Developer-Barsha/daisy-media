@@ -1,32 +1,10 @@
 .mainScroller{
     background-color: #100539;
-    padding: 50px;
+    padding:10px 25px;
     min-width: 50%;
     width: 50%;
     max-width: 50%;
     overflow-y: scroll;
-}
-
-input{
-    background-color: #130646;
-    border: 1px solid #9182ce;
-    width: 100%;
-    height: 40px;
-    outline: none;
-    font-size: 18px;
-    padding: 7px 12px;
-    color: white;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px solid #7b5eed;
-    margin-bottom: 10px ;
-}
-
-input:focus{
-    border: 1px solid #5A32FB;
-}
-
-input::placeholder{
-    color: #9182ce;
 }
 
 .mainScroller::-webkit-scrollbar {
@@ -52,6 +30,7 @@ input::placeholder{
 
 .post img{
     padding-top: 10px;
+    border-radius: 15px;
     width: 100%;
 }
 

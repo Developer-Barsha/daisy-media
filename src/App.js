@@ -28,8 +28,8 @@ function App() {
       {
         showLogo &&
         <Link to='/'>
-          <div style={{ width: '90px', height: '90px', position: 'fixed', top: '30px', left: '30px', overflow: 'hidden', background: '#8c72ff', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src={logo2} width={120} height='120' alt="" />
+          <div style={{ width: '60px', height: '60px', position: 'fixed', top: '30px', left: '30px', overflow: 'hidden', background: '#8c72ff', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src={logo2} width={95} height='95' alt="" />
           </div>
         </Link>
       }

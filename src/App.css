@@ -46,14 +46,15 @@ ul li{
   list-style: none;
   display: flex;
   gap: 15px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .sector{
   background-color: #130646;
-  padding: 20px 25px;
+  padding: 15px 20px;
   border-radius: 10px;
   margin: 15px 0;
+  overflow: hidden;
 }
 
 .sector h2{
@@ -62,6 +63,35 @@ ul li{
 
 form h2{
   padding-bottom: 20px;
+}
+
+.hover:hover{
+  background-color: #5A32FB;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+input, textarea{
+  background-color: #130646;
+  border: 1px solid #9182ce;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  font-size: 18px;
+  padding: 7px 12px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px solid #7b5eed;
+  margin-bottom: 10px ;
+}
+
+input:focus, textarea:focus{
+  border: 1px solid #5A32FB;
+}
+
+input::placeholder, textarea::placeholder{
+  color: #9182ce;
 }
 
 .App-logo {

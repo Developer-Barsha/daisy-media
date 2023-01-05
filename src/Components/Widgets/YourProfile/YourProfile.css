@@ -1,5 +1,5 @@
 .your-profile{
-    padding: 50px;
+    padding: 50px 50px 0 50px;
 }
 
 .your-profile button{
@@ -44,8 +44,8 @@ img{
 }
 
 .profile-gallery img{
-    width: 150px;
-    height: 200px;
+    width: 100%;
+    height: 150px;
 }
 
 /* #save-btn, #edit-input{

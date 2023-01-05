@@ -44,11 +44,11 @@ const LeftSidebar = () => {
 
     return (
         <div className='LeftSidebar'>
-            <img className='logo' src={logo} width='310' height={110} alt="" />
+            <img className='logo' src={logo} width='100%' height={90} alt="" />
 
             {
                 widgets.map(widget =>
-                    <Link to={widget.path} className='hover' style={{ display: 'flex', gap: '15px', padding: "10px", alignItems: 'center', margin: '10px 0', color: 'white', textDecoration: 'none', fontSize: '20px' }}><i className={widget.icon}></i> {widget.title}</Link>
+                    <Link to={widget.path} className='hover' style={{ display: 'flex', gap: '15px', padding: "10px", alignItems: 'center', margin: '10px 0', color: 'white', textDecoration: 'none', fontSize: '18px' }}><i className={widget.icon}></i> {widget.title}</Link>
                 )
             }
         </div>
